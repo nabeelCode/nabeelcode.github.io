@@ -39,6 +39,14 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+@font-face {
+   font-family: HeadingFont;
+   src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+   font-family: ParagraphFont;
+   src: url(../fonts/Questrial-Regular.ttf);
+}
 
 html {
   font-family: sans-serif;
@@ -70,7 +78,8 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  font-family: HeadingFont; }
 
 p {
   margin-top: 0;
@@ -8143,7 +8152,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: ParagraphFont;
   background: #fff;
   font-size: 15px;
   line-height: 1.8;
